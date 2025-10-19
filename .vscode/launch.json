@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:set_browser_to-cli}",
+      "name": "Debug SetBrowserTo",
+      "program": "${workspaceFolder:set_browser_to-cli}/.build/debug/SetBrowserTo",
+      "preLaunchTask": "swift: Build Debug SetBrowserTo"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:set_browser_to-cli}",
+      "name": "Release SetBrowserTo",
+      "program": "${workspaceFolder:set_browser_to-cli}/.build/release/SetBrowserTo",
+      "preLaunchTask": "swift: Build Release SetBrowserTo"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:set_browser_to-cli}",
+      "name": "Debug sbt",
+      "program": "${workspaceFolder:set_browser_to-cli}/.build/debug/sbt",
+      "preLaunchTask": "swift: Build Debug sbt"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:set_browser_to-cli}",
+      "name": "Release sbt",
+      "program": "${workspaceFolder:set_browser_to-cli}/.build/release/sbt",
+      "preLaunchTask": "swift: Build Release sbt"
+    }
+  ]
+}
